@@ -11,24 +11,8 @@ A deep learning-based Grammar Error Correction (GEC) system for English text usi
 ```bash
 git clone https://github.com/yourusername/GrammarFixer-NLP.git  
 cd GrammarFixer-NLP  
-pip install -r requirements.txt  
 ```
 
-## **Usage**  
-### **Training the Model**  
-```bash
-python train.py --model t5 --epochs 3  
-```
-or  
-```bash
-python train.py --model lstm --epochs 10  
-```
-
-### **Running Inference**  
-```bash
-python infer.py --sentence "She don't knows how to do it."  
-```
-**Output:** `"She doesn't know how to do it."`
 
 ## **Dataset**  
 - **Source:** GEC_LANG8  
@@ -52,7 +36,7 @@ python infer.py --sentence "She don't knows how to do it."
 - **Ghassan Jarbooa**  
 - **Amer Kanhoosh**  
 - **Qusai Al-Sheikh Ali**  
-- **Ali Sefo**  
+- **Ali Saifo**  
 
 ## **License**  
 MIT License  
