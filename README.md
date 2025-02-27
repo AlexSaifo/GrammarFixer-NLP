@@ -23,7 +23,7 @@ cd GrammarFixer-NLP
 | Model | GLEU | ROUGE-1 | ROUGE-2 | ROUGE-L | Training Time |
 |--------|------|---------|---------|---------|--------------|
 | T5 | 0.5751 | 0.8043 | 0.6333 | 0.7918 | ~1h (GPU) |
-| LSTM-Enc-Dec | 0.2776 | 0.6112 | 0.6112 | - | ~44h (CPU) |
+
 
 ## **Technologies Used**  
 - Python  
